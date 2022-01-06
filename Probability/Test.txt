@@ -1,0 +1,27 @@
+Script started on Mon 30 Nov 2020 06:10:48 PM PST
+]0;cowie001@empress:~/cs471/ADV/HW8-NLP[?1034h[cowie001@empress HW8-NLP]$ g++ probabnlp.cpp
+]0;cowie001@empress:~/cs471/ADV/HW8-NLP[cowie001@empress HW8-NLP]$ ./a.out
+Enter a file name: nlpProb.txt
+Enter a word: abbca
+P(a|xx) * 0.33 P(b|ax) * 0.1 P(b|ab) * 0.04 P(c|bb) * 0.04 P(a|bc) * 0.04 
+P(word) = 2.112e-06
+Enter a word: baac
+P(b|xx) * 0.33 P(a|bx) * 0.1 P(a|ba) * 0.04 P(c|aa) * 0.04 
+P(word) = 5.28e-05
+Enter a word: cab
+P(c|xx) * 0.33 P(a|cx) * 0.1 P(b|ca) * 0.04 
+P(word) = 0.00132
+Enter a word: a
+P(a|xx) * 0.33 
+P(word) = 0.33
+Enter a word: ac
+P(a|xx) * 0.33 P(c|ax) * 0.1 
+P(word) = 0.033
+Enter a word: cbabc
+P(c|xx) * 0.33 P(b|cx) * 0.1 P(a|cb) * 0.04 P(b|ba) * 0.04 P(c|ab) * 0.04 
+P(word) = 2.112e-06
+Enter a word: quit
+]0;cowie001@empress:~/cs471/ADV/HW8-NLP[cowie001@empress HW8-NLP]$ exit
+exit
+
+Script done on Mon 30 Nov 2020 06:12:24 PM PST
