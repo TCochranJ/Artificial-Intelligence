@@ -1,0 +1,103 @@
+Script started on Sun 04 Oct 2020 07:23:35 PM PDT
+]0;cowie001@empress:~/cs471/FIRST/HW2-FWDC[?1034h[cowie001@empress HW2-FWDC]$ g++ fwdc.cpp
+]0;cowie001@empress:~/cs471/FIRST/HW2-FWDC[cowie001@empress HW2-FWDC]$ ./a.out
+>>>Expand:RRRR
+Trying to add: LRRR unsafe!
+Trying to add: LLRR unsafe!
+Trying to add: LRLR safe!
+Not in frontier yet
+Trying to add: LRRL unsafe!
+Frontier is:
+LRLR g = 1 h = 2 f = 3
+Best is: LRLR
+y
+>>>Expand:LRLR
+Trying to add: RRLR safe!
+Not in frontier yet
+Trying to add: RRRR been there already
+Frontier is:
+RRLR g = 2 h = 2 f = 4
+Best is: RRLR
+y
+>>>Expand:RRLR
+Trying to add: LRLR been there already
+Trying to add: LLLR safe!
+Not in frontier yet
+Trying to add: LRLL safe!
+Not in frontier yet
+Frontier is:
+LLLR g = 3 h = 1 f = 4
+LRLL g = 3 h = 1 f = 4
+Best is: LLLR
+y
+>>>Expand:LLLR
+Trying to add: RLLR unsafe!
+Trying to add: RRLR been there already
+Trying to add: RLRR safe!
+Not in frontier yet
+Frontier is:
+LRLL g = 3 h = 1 f = 4
+RLRR g = 4 h = 2 f = 6
+Best is: LRLL
+y
+>>>Expand:LRLL
+Trying to add: RRLL unsafe!
+Trying to add: RRRL safe!
+Not in frontier yet
+Trying to add: RRLR been there already
+Frontier is:
+RLRR g = 4 h = 2 f = 6
+RRRL g = 4 h = 2 f = 6
+Best is: RLRR
+y
+>>>Expand:RLRR
+Trying to add: LLRR unsafe!
+Trying to add: LLLR been there already
+Trying to add: LLRL safe!
+Not in frontier yet
+Frontier is:
+RRRL g = 4 h = 2 f = 6
+LLRL g = 5 h = 1 f = 6
+Best is: RRRL
+y
+>>>Expand:RRRL
+Trying to add: LRRL unsafe!
+Trying to add: LLRL safe!
+Already in frontier
+f not better
+Trying to add: LRLL been there already
+Frontier is:
+LLRL g = 5 h = 1 f = 6
+Best is: LLRL
+y
+>>>Expand:LLRL
+Trying to add: RLRL safe!
+Not in frontier yet
+Trying to add: RRRL been there already
+Trying to add: RLRR been there already
+Frontier is:
+RLRL g = 6 h = 1 f = 7
+Best is: RLRL
+y
+>>>Expand:RLRL
+Trying to add: LLRL been there already
+Trying to add: LLLL
+>>Reached: LLLL
+came from
+RLRL
+came from
+LLRL
+came from
+RLRR
+came from
+LLLR
+came from
+RRLR
+came from
+LRLR
+came from
+RRRR
+]0;cowie001@empress:~/cs471/FIRST/HW2-FWDC[cowie001@empress HW2-FWDC]$ exit
+exit
+
+Script done on Sun 04 Oct 2020 07:24:20 PM PDT
